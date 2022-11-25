@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page Template</title>
+    <!-- normalize file  -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!--start navbar -->
+    <nav class="nav" id="nav">
+        <div class="container">
+            <h2 class="logo">Author<span>.</span></h2>
+            <ul class="links">
+                <li class="nav-link"><a href="#">Home</a></li>
+                <li class="nav-link"><a href="#about">about</a></li>
+                <li class="nav-link"><a href="#chapter">chapter</a></li>
+                <li class="nav-link"><a href="#reviews">reviews</a></li>
+                <li class="nav-link"><a href="#books">my books</a></li>
+                <li class="nav-link"><a href="#authors">authors</a></li>
+                <li class="nav-link"><a href="#contact">contact</a></li>
+            </ul>
+            <div class="menu-icon">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </nav>
+    <!--end navbar -->
+    <!-- start landing page-->
+    <section class="landing">
+        <div class="container">
+            <div class="text">
+                <h6>Best seller book of the week</h6>
+                <h1>club of the wooden cottage</h1>
+                <p>
+                    A small river named Duden flows by their place and supplies it with the necessary regelialia. 
+                    It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                </p>
+                <a href="#" class="main-button">Buy now for $22.78</a>
+            </div>
+            <div class="img-container">
+            </div>
+        </div>
+    </section>
+    <!--end landing page -->
+    <!--start partener  -->
+    <div class="partner">
+        <div class="container">
+            <a href="#">
+                <img src="./images/microsoft.webp">
+            </a>
+            <a href="#">
+                <img src="./images/android.webp">
+            </a>
+            <a href="#">
+                <img src="./images/java.webp">
+            </a>
+            <a href="#">
+                <img src="./images/google.webp">
+            </a>
+            <a href="#">
+                <img src="./images/adobe.webp">
+            </a>
+        </div>
+    </div>
+    <!-- end partners -->
+    <!-- start about -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="img-container">
+                <img src="./images/about.webp" alt="about">
+            </div>
+            <div class="info">
+                <h2>About The Book</h2>
+                <p class="caption">
+                    A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                </p>
+                <div class="text">
+                    <h3>Award achievements</h3>
+                    <p>
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean
+                    </p>
+                    
+                    <h3>Read On Any Devices</h3>
+                    <p>
+                        Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                    </p>
+                    
+                    <h3>Very High Resolution</h3>
+                    <p>
+                        SFar far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end about -->
+    <!--start stats -->
+    <div class="stats">
+        <div class="container">
+            <div class="box" data-value="1100">
+                <h3>0</h3>
+                <p>copies sold</p>
+            </div>
+            <div class="box" data-value="1200">
+                <h3>0</h3>
+                <p>copies released</p>
+            </div>
+            <div class="box" data-value="340">
+                <h3>0</h3>
+                <p>cup of coffee</p>
+            </div>
+            <div class="box" data-value="12000">
+                <h3>0</h3>
+                <p>happy readers</p>
+            </div>
+        </div>
+    </div>
+    <!--end stats -->
+    <!--start book content -->
+    <section class="book-content" id="chapter">
+        <h2>what's inside the book</h2>
+        <div class="container">
+            <aside class="side-nav">
+                <a href="#title-page" class="active">Title Page</a>
+                <a href="#copyright">copyright</a>
+                <a href="#table-content">table of contents</a>
+                <a href="#dedication">dedication</a>
+                <a href="#foreword">foreword</a>
+                <a href="#prologue">prologue</a>
+                <a href="#epigraph">epigraph</a>
+            </aside>
+            <div class="articles">
+                <div class="article-container" id="title-page">
+                    <article >
+                        <h3>title page</h3>
+                        <p>
+                            On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.
+                        </p>
+                    </article>
+                </div>
+                
+                <div class="article-container" id="copyright">
+                    <article >
+                        <h3>copyright</h3>
+                        <p>
+                            On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.
+                        </p>
+                    </article>
+                </div>
+                
+                <div class="article-container" id="table-content">
+                    <article >
+                        <h3>table of content</h3>
+                        <p>
+                            On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.
+                        </p>
+                    </article>
+                </div>
+
+                <div class="article-container" id="dedication">
+                    <article >
+                        <h3>dedication</h3>
+                        <p>
+                            On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.
+                        </p>
+                    </article>
+                </div>
+
+                <div class="article-container" id="foreword">
+                    <article >
+                        <h3>foreword</h3>
+                        <p>
+                            On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.
+                        </p>
+                    </article>
+                </div>
+                
+                <div class="article-container" id="prologue">
+                    <article >
+                        <h3>prologue</h3>
+                        <p>
+                            On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.
+                        </p>
+                    </article>
+                </div>
+                
+                <div class="article-container" id="epigraph">
+                    <article >
+                        <h3>epigraph</h3>
+                        <p>
+                            On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end book content -->
+    <!-- start services  -->
+    <div class="services">
+        <h6>services</h6>
+        <h2>services</h2>
+        <div class="container">
+            <div class="box">
+                <img src="./images/user-experience.png">
+                <h3>experinces</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            </div>
+            <div class="box">
+                <img src="./images/networking.png">
+                <h3>marketing goals</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            </div>
+            <div class="box">
+                <img src="./images/innovation.png">
+                <h3>targetting vission</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            </div>
+        </div>
+    </div>
+    <!-- end services -->
+    <!-- start reviews  -->
+    <section class="testim" id="reviews">
+        <div class="header">
+            <h6>testimonials</h6>
+            <h2>kinds words from customers</h2>
+        </div>
+        <div class="container">
+            <div class="owl-carousel">
+
+                <div class="item">
+                    <div class="icon">
+                        <img src="./images/double-quotes.png">
+                    </div>
+                    <p>
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                    </p>
+                    <div class="customer">
+                        <img src="./images/person_1.webp">
+                        <div class="info">
+                            <h3>roger scott</h3>
+                            <h5>marketing manager</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="icon">
+                        <img src="./images/double-quotes.png">
+                    </div>
+                    <p>
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                    </p>
+                    <div class="customer">
+                        <img src="./images/person_2.webp">
+                        <div class="info">
+                            <h3>roger scott</h3>
+                            <h5>marketing manager</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="icon">
+                        <img src="./images/double-quotes.png">
+                    </div>
+                    <p>
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                    </p>
+                    <div class="customer">
+                        <img src="./images/person_3.webp">
+                        <div class="info">
+                            <h3>roger scott</h3>
+                            <h5>marketing manager</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="icon">
+                        <img src="./images/double-quotes.png">
+                    </div>
+                    <p>
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                    </p>
+                    <div class="customer">
+                        <img src="./images/person_1.webp">
+                        <div class="info">
+                            <h3>roger scott</h3>
+                            <h5>marketing manager</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="icon">
+                        <img src="./images/double-quotes.png">
+                    </div>
+                    <p>
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                    </p>
+                    <div class="customer">
+                        <img src="./images/person_2.webp">
+                        <div class="info">
+                            <h3>roger scott</h3>
+                            <h5>marketing manager</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="icon">
+                        <img src="./images/double-quotes.png">
+                    </div>
+                    <p>
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                    </p>
+                    <div class="customer">
+                        <img src="./images/person_3.webp">
+                        <div class="info">
+                            <h3>roger scott</h3>
+                            <h5>marketing manager</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="icon">
+                        <img src="./images/double-quotes.png">
+                    </div>
+                    <p>
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                    </p>
+                    <div class="customer">
+                        <img src="./images/person_1.webp">
+                        <div class="info">
+                            <h3>roger scott</h3>
+                            <h5>marketing manager</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="icon">
+                        <img src="./images/double-quotes.png">
+                    </div>
+                    <p>
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                    </p>
+                    <div class="customer">
+                        <img src="./images/person_2.webp">
+                        <div class="info">
+                            <h3>roger scott</h3>
+                            <h5>marketing manager</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="icon">
+                        <img src="./images/double-quotes.png">
+                    </div>
+                    <p>
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                    </p>
+                    <div class="customer">
+                        <img src="./images/person_3.webp">
+                        <div class="info">
+                            <h3>roger scott</h3>
+                            <h5>marketing manager</h5>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- end reviews -->
+    <!-- start books  -->
+    <section class="books" id="books">
+        <h6>projects</h6>
+        <h2>My Other Books</h2>
+        <div class="container">
+
+            <div class="box">
+                <img src="./images/book_1.jpg">
+                <div class="overlay">
+                    <h4>you are your ony limit</h4>
+                    <p>romance</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/book_2.jpg">
+                <div class="overlay">
+                    <h4>you are your ony limit</h4>
+                    <p>romance</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/book_3.webp">
+                <div class="overlay">
+                    <h4>you are your ony limit</h4>
+                    <p>romance</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/book_4.webp">
+                <div class="overlay">
+                    <h4>you are your ony limit</h4>
+                    <p>romance</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/book_5.jpg">
+                <div class="overlay">
+                    <h4>you are your ony limit</h4>
+                    <p>romance</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/book_6.jpg">
+                <div class="overlay">
+                    <h4>you are your ony limit</h4>
+                    <p>romance</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/book_7.webp">
+                <div class="overlay">
+                    <h4>you are your ony limit</h4>
+                    <p>romance</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/boook_8.webp">
+                <div class="overlay">
+                    <h4>you are your ony limit</h4>
+                    <p>romance</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- end books  --> 
+    <!-- start author  -->
+    <section class="author" id="author">
+        <div class="container">
+            <div class="img">
+                <img src="./images/author.webp">
+            </div>
+            <div class="info">
+                <h6>know more about the autohr</h6>
+                <h2>franklin henderson</h2>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <ul>
+                    <li><span>name: </span>franklin hendreson</li>
+                    <li><span>date of birth: </span>November 28, 1980</li>
+                    <li><span>address: </span>San Francisco CA 97987 USA</li>
+                    <li><span>Zip Code: </span>1000</li>
+                    <li><span>Email: </span>franklinsample@gmail.com</li>
+                    <li><span>Phone: </span>+1-2234-5678-9-0</li>
+                </ul>
+                <a href="#" class="view-books"><b>120</b> view all books</a>
+            </div>
+        </div>
+    </section>
+    <!-- end author  -->
+    <!-- start contact  -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+        <div class="container boxes">
+            <div class="box">
+                <div class="icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <h3>Address</h3>
+                <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+            </div>
+
+            <div class="box">
+                <div class="icon">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <h3>contact number</h3>
+                <p>+1-2234-5678-9</p>
+            </div>
+
+            <div class="box">
+                <div class="icon">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </div>
+                <h3>email address</h3>
+                <p>example@website.com</p>
+            </div>
+
+            <div class="box">
+                <div class="icon">
+                    <i class="fa-solid fa-earth-asia"></i>
+                </div>
+                <h3>website</h3>
+                <p>yoursite.com</p>
+            </div>
+        </div>
+        <div class="container form">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d153625.172705447!2d18.872145038633846!3d53.01329207139543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470334e1d994ec19%3A0x744a729a586a89c4!2z2KrZiNix2YjZhtiMINio2YjZhNmG2K_Ypw!5e0!3m2!1sar!2seg!4v1653649700934!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <form method="post" action="/">
+                <input type="text" placeholder="Your Name" name="name">
+                <input type="text" placeholder="Your Email" name="email">
+                <input type="text" placeholder="Subject" name="subject">
+                <textarea class="message" placeholder="Message"></textarea>
+                <input type="submit" name="submit" class="submit" value="Send">
+            </form>
+        </div>
+    </section>
+    <!-- end contact  -->
+    <!-- start footer  -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="f-about">
+                <h4>About</h4>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <div class="socials">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="f-links">
+                <h4>Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#chapter">Chapter</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </div>
+            <div class="f-services">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#">Experinces</a></li>
+                    <li><a href="#">Marketing Goals</a></li>
+                    <li><a href="#">Targetting Vission</a></li>
+                </ul>
+            </div>
+            <div class="f-info">
+                <ul>
+                    <li>
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+                    </li><li>
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <p>+2 392 3929 210</p>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </div>
+                        <p>info@yourdomain.com</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- end footer  -->
+    <!-- js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/carousel-handler.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
